@@ -417,6 +417,8 @@ vendor/etc/permissions/com.motorola.camera2.xml|6d77e9310c6647cda3c35f64097a14a1
 vendor/bin/charge_only_mode
 
 # Perf
+-framework/UxPerformance
+-framework/QPerformance
 lib/libqti_performance.so
 lib/libqti-perfd-client_system.so
 lib/vendor.qti.hardware.perf@1.0.so
@@ -426,8 +428,11 @@ lib64/vendor.qti.hardware.perf@1.0.so
 vendor/bin/energy-awareness
 vendor/bin/msm_irqbalance
 vendor/bin/hw/vendor.qti.hardware.perf@1.0-service
+vendor/etc/perf/commonresourceconfigs.xml
 vendor/etc/init/vendor.qti.hardware.perf@1.0-service.rc
 vendor/etc/perf/perfboostsconfig.xml
+vendor/etc/perf/targetconfig.xml
+vendor/etc/perf/targetresourceconfigs.xml
 vendor/lib/libperfgluelayer.so
 vendor/lib/libqti-perfd.so
 vendor/lib/libqti-perfd-client.so
@@ -714,4 +719,5 @@ vendor/lib/libwfdcommonutils_proprietary.so
 vendor/lib/libwfdhaldsmanager.so
 vendor/lib/libwfdhdcpcp.so
 vendor/lib/libwfdmmservice.so
+vendor/lib/libwfdmodulehdcpsession.so
 vendor/lib/libwfdmodulehdcpsession.so
