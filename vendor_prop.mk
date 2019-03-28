@@ -43,6 +43,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     vendor.audio.tunnel.encode=false \
     audio.pp.asphere.enabled=false \
     ro.fm.transmitter=false \
+    vendor.hw.fm.init=0 \
     vendor.audio.use.sw.alac.decoder=true \
     vendor.audio.use.sw.ape.decoder=true \
     persist.audio.qti.flac.decoder=true \
