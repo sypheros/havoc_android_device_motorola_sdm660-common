@@ -205,6 +205,11 @@ vendor/lib64/libscveObjectTracker_stub.so
 vendor/lib64/libscvePanorama_lite.so
 vendor/lib64/libscvePanorama.so
 
+# FM APPS
+app/FMPlayer/FMPlayer.apk
+app/FMRadioService.apk
+app/MotoSignatureApp.apk
+
 # FM
 lib/fm_helium.so
 lib/libfm-hci.so
@@ -220,6 +225,11 @@ vendor/lib/vendor.qti.hardware.fm@1.0.so
 framework/qcom.fmradio.jar
 lib/libqcomfm_jni.so
 lib64/libqcomfm_jni.so
+framework/com.motorola.motosignature.jar
+
+# FM Permissions
+etc/permissions/com.motorola.motosignature.xml
+com.motorola.software.fmradioservice.xml
 
 # GPS
 vendor/bin/hw/vendor.qti.gnss@2.0-service
